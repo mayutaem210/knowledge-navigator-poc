@@ -7,7 +7,16 @@
   - [Order-to-Cash](processes/order-to-cash.md)
 - [常见问题 FAQ](faq.md)
 - [专家目录](experts.md)
-- [新员工导航](new-joiner.md)
+- **🌱 新员工导航**
+  - [导航首页](new-joiner/index.md)
+  - [公司与部门](new-joiner/company.md)
+  - [岗位导航](new-joiner/roles.md)
+    - [Customer Service](new-joiner/roles/customer-service.md)
+    - [IT Application](new-joiner/roles/it-application.md)
+  - [业务流程地图](new-joiner/processes.md)
+  - [知识体系](new-joiner/knowledge-center.md)
+  - [专家与支持](new-joiner/experts.md)
+  - [学习路径与清单](new-joiner/learning-path.md)
 - **项目说明**
   - [内容维护规则](governance.md)
   - [部署操作指南](DEPLOY.md)
