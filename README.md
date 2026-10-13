@@ -9,13 +9,7 @@
       <span class="kn-search-shortcut">Ctrl K</span>
       <button id="kn-home-search-button" type="button">搜索</button>
     </div>
-    <div class="kn-chips">
-      <button class="kn-chip" data-kn-search="订单没有价格">订单没有价格</button>
-      <button class="kn-chip" data-kn-search="运输路线">运输路线</button>
-      <button class="kn-chip" data-kn-search="创建新客户">创建新客户</button>
-      <button class="kn-chip" data-kn-search="SAP权限">SAP权限</button>
-      <button class="kn-chip" data-kn-search="发票异常">发票异常</button>
-    </div>
+
   </section>
 
   <section class="kn-section">
@@ -41,12 +35,14 @@
 
   <section class="kn-section kn-lower">
     <div class="kn-panel">
-      <div class="kn-section-head"><div><h2>New joiner path</h2><p>新员工推荐学习路径</p></div><a href="#/new-joiner">进入导航 →</a></div>
-      <div class="kn-path-list">
-        <div class="kn-step"><small>STEP 01</small><b>认识公司与部门</b></div>
-        <div class="kn-step"><small>STEP 02</small><b>选择岗位地图</b></div>
-        <div class="kn-step"><small>STEP 03</small><b>理解业务流程</b></div>
-        <div class="kn-step"><small>STEP 04</small><b>完成实践任务</b></div>
+      <div class="kn-section-head"><div><h2>新员工知识导航 New Joiner Navigator</h2><p>从角色定位到知识、流程、系统与专家支持</p></div><a href="#/new-joiner">查看全部 →</a></div>
+      <div class="kn-newjoiner-grid">
+        <a class="kn-newjoiner-card" href="#/new-joiner/company"><span class="kn-newjoiner-icon">🏢</span><b>公司与部门 Company & Department</b><small>了解组织、产品和基本规范</small></a>
+        <a class="kn-newjoiner-card" href="#/new-joiner/roles"><span class="kn-newjoiner-icon">👤</span><b>岗位导航 Role</b><small>进入岗位专属学习路径</small></a>
+        <a class="kn-newjoiner-card" href="#/new-joiner/processes"><span class="kn-newjoiner-icon">🔄</span><b>业务流程 Process</b><small>理解端到端流程与交接点</small></a>
+        <a class="kn-newjoiner-card" href="#/new-joiner/knowledge-center"><span class="kn-newjoiner-icon">📚</span><b>知识体系 Knowledge</b><small>查看制度、产品、系统和经验</small></a>
+        <a class="kn-newjoiner-card" href="#/new-joiner/experts"><span class="kn-newjoiner-icon">🧭</span><b>专家支持 Expert Support</b><small>按问题找到支持和升级方向</small></a>
+        <a class="kn-newjoiner-card" href="#/new-joiner/learning-path"><span class="kn-newjoiner-icon">✓</span><b>学习路径 Learning Path</b><small>查看学习安排与入职清单</small></a>
       </div>
     </div>
     <div class="kn-panel">

@@ -1,26 +1,26 @@
-- **NAVIGATION**
+- **导航 Navigation**
   - [⌂ 首页 Home](/)
   - [◉ 岗位 Role](new-joiner/roles.md)
-    - [Customer Service](new-joiner/roles/customer-service.md)
-    - [IT Application](new-joiner/roles/it-application.md)
+    - [客户服务 Customer Service](new-joiner/roles/customer-service.md)
+    - [IT应用 IT Application](new-joiner/roles/it-application.md)
   - [↗ 流程 Process](new-joiner/processes.md)
-    - [Order-to-Cash](processes/order-to-cash.md)
+    - [订单到收款 Order-to-Cash](processes/order-to-cash.md)
   - [⌘ 系统 System](new-joiner/knowledge-center.md)
-    - [SAP支持](knowledge/sap.md)
+    - [SAP支持 SAP Support](knowledge/sap.md)
   - [? 常见问题 FAQ](faq.md)
   - [◎ 专家 Expert](experts.md)
 
-- **FEATURED**
-  - [✦ 新员工导航](new-joiner/index.md)
-    - [公司与部门](new-joiner/company.md)
-    - [岗位导航](new-joiner/roles.md)
-    - [业务流程地图](new-joiner/processes.md)
-    - [知识体系](new-joiner/knowledge-center.md)
-    - [专家与支持](new-joiner/experts.md)
-    - [学习路径与清单](new-joiner/learning-path.md)
-  - [▦ 销售与客户服务](knowledge/sales-cs.md)
-  - [▦ 物流与交付](knowledge/logistics.md)
+- **精选内容 Featured**
+  - [✦ 新员工导航 New Joiner](new-joiner/index.md)
+    - [公司与部门 Company & Department](new-joiner/company.md)
+    - [岗位导航 Role](new-joiner/roles.md)
+    - [业务流程地图 Process Map](new-joiner/processes.md)
+    - [知识体系 Knowledge](new-joiner/knowledge-center.md)
+    - [专家与支持 Expert Support](new-joiner/experts.md)
+    - [学习路径与清单 Learning Path](new-joiner/learning-path.md)
+  - [▦ 销售与客户服务 Sales & CS](knowledge/sales-cs.md)
+  - [▦ 物流与交付 Logistics](knowledge/logistics.md)
 
-- **PROJECT**
-  - [内容维护规则](governance.md)
-  - [部署操作指南](DEPLOY.md)
+- **项目 Project**
+  - [内容维护规则 Governance](governance.md)
+  - [部署操作指南 Deployment Guide](DEPLOY.md)
