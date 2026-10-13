@@ -1,15 +1,1 @@
-<div class="nj-page">
-  <section class="nj-hero">
-    <div class="nj-kicker">新员工入口 New Joiner Entry</div>
-    <h1>新员工知识导航 New Joiner Navigator</h1>
-    <p>从“我是谁、我要做什么”出发，直接找到公司、岗位、流程、知识、系统和专家支持。<br>Start with who you are and what you need to do, then go directly to the right company, role, process, knowledge, system and expert content.</p>
-  </section>
-  <section class="nj-grid">
-    <div class="nj-card"><a href="#/new-joiner/company"><span>🏢</span><strong>公司与部门 Company &amp; Department</strong><small>了解组织、产品和基本规范</small><em>进入内容 Open →</em></a></div>
-    <div class="nj-card"><a href="#/new-joiner/roles"><span>👤</span><strong>岗位导航 Role</strong><small>查看岗位职责和必须掌握的知识</small><em>进入内容 Open →</em></a></div>
-    <div class="nj-card"><a href="#/new-joiner/processes"><span>🔄</span><strong>业务流程 Process</strong><small>理解端到端流程与跨部门交接</small><em>进入内容 Open →</em></a></div>
-    <div class="nj-card"><a href="#/new-joiner/knowledge-center"><span>📚</span><strong>知识体系 Knowledge</strong><small>查看制度、产品、系统和实践经验</small><em>进入内容 Open →</em></a></div>
-    <div class="nj-card"><a href="#/new-joiner/experts"><span>🧭</span><strong>专家支持 Expert Support</strong><small>按问题找到支持角色和升级方向</small><em>进入内容 Open →</em></a></div>
-    <div class="nj-card"><a href="#/new-joiner/learning-path"><span>✓</span><strong>学习清单 Learning Checklist</strong><small>检查入职事项和能力掌握情况</small><em>进入内容 Open →</em></a></div>
-  </section>
-</div>
+<div class="nj-v4"><section class="nj-hero"><div class="nj-kicker">新员工入口 New Joiner Entry</div><h1>新员工知识导航 New Joiner Navigator</h1><p>从“我是谁、我要做什么”出发，直接找到公司、岗位、流程、知识、系统和专家支持。<br>Start with who you are and what you need to do, then go directly to the right content and support.</p></section><section class="nj-section"><div class="kn-head"><div><h2>选择入口 Choose Your Entry</h2><p>选择最接近当前需求的入口 Select the entry closest to your current need</p></div></div><div class="kn-nj-six"><a class="c1" href="#/new-joiner/company"><span>01</span><strong>Company &amp;<br>Department</strong><em>公司与部门</em><small>了解组织、产品和基本规范</small><i>→</i></a><a class="c2" href="#/new-joiner/roles"><span>02</span><strong>Role</strong><em>岗位导航</em><small>查看岗位职责与岗位知识</small><i>→</i></a><a class="c3" href="#/new-joiner/processes"><span>03</span><strong>Process</strong><em>业务流程</em><small>理解流程与跨部门交接点</small><i>→</i></a><a class="c4" href="#/new-joiner/knowledge-center"><span>04</span><strong>Knowledge</strong><em>知识体系</em><small>查看制度、产品、系统和经验</small><i>→</i></a><a class="c5" href="#/new-joiner/experts"><span>05</span><strong>Expert Support</strong><em>专家支持</em><small>找到支持角色与升级方向</small><i>→</i></a><a class="c6" href="#/new-joiner/learning-path"><span>06</span><strong>Learning Checklist</strong><em>学习清单</em><small>检查入职事项与能力掌握情况</small><i>→</i></a></div></section><section class="nj-help"><div><b>不知道从哪里开始？ Not Sure Where to Start?</b><p>返回首页搜索具体问题，或从岗位导航开始。</p></div><a href="#/">返回首页 Back to Home →</a></section></div>

@@ -11,15 +11,9 @@
   - [◎ 专家 Expert](experts.md)
 
 - **精选内容 Featured**
-  - [✦ 新员工导航 New Joiner](new-joiner/index.md)
-    - [公司与部门 Company & Department](new-joiner/company.md)
-    - [岗位导航 Role](new-joiner/roles.md)
-    - [业务流程地图 Process Map](new-joiner/processes.md)
-    - [知识体系 Knowledge](new-joiner/knowledge-center.md)
-    - [专家与支持 Expert Support](new-joiner/experts.md)
-    - [学习路径与清单 Learning Path](new-joiner/learning-path.md)
-  - [▦ 销售与客户服务 Sales & CS](knowledge/sales-cs.md)
-  - [▦ 物流与交付 Logistics](knowledge/logistics.md)
+  - [新员工导航 New Joiner](new-joiner/index.md)
+  - [销售与客户服务 Sales & CS](knowledge/sales-cs.md)
+  - [物流与交付 Logistics](knowledge/logistics.md)
 
 - **项目 Project**
   - [内容维护规则 Governance](governance.md)
