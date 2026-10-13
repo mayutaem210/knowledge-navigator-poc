@@ -1,1 +1,50 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Knowledge Navigator POC"><title>Knowledge Navigator</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"><link rel="stylesheet" href="assets/custom.css"></head><body><div id="app">正在加载 Knowledge Navigator...</div><script>window.$docsify={name:'Knowledge Navigator',homepage:'README.md',loadSidebar:true,auto2top:true,subMaxLevel:2,maxLevel:3,search:{paths:'auto',placeholder:'搜索流程、FAQ、文档或专家',noData:'未找到匹配内容',depth:4},pagination:{previousText:'上一页',nextText:'下一页'},copyCode:{buttonText:'复制',errorText:'复制失败',successText:'已复制'}};</script><script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script><script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script><script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script><script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Knowledge Navigator - Find the right process, knowledge and expert">
+  <meta name="theme-color" content="#1e293b">
+  <title>Knowledge Navigator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="assets/custom.css">
+</head>
+<body>
+  <div id="app">正在加载 Knowledge Navigator...</div>
+  <script>
+    window.$docsify = {
+      name: 'Knowledge Navigator',
+      nameLink: '/',
+      homepage: 'README.md',
+      loadSidebar: true,
+      auto2top: true,
+      subMaxLevel: 2,
+      maxLevel: 3,
+      relativePath: false,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索流程、FAQ、系统或专家',
+        noData: '未找到匹配内容，请尝试其他关键词',
+        depth: 4,
+        hideOtherSidebarContent: false
+      },
+      pagination: {
+        previousText: '上一页',
+        nextText: '下一页',
+        crossChapter: true
+      },
+      copyCode: {
+        buttonText: '复制',
+        errorText: '复制失败',
+        successText: '已复制'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="assets/custom.js"></script>
+</body>
+</html>
