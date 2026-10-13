@@ -292,3 +292,58 @@ body:not(.ready) .sidebar { visibility: hidden; }
 .kn-newjoiner-card small { margin-top: 6px; color: #84909d; font-size: 11px; line-height: 1.5; }
 @media (max-width: 1050px) { .kn-newjoiner-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px) { .kn-newjoiner-grid { grid-template-columns: 1fr; } }
+
+/* v3: reliable New Joiner cards */
+.kn-newjoiner-panel { min-width: 0; }
+.kn-newjoiner-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 12px !important;
+  margin-top: 16px !important;
+}
+.kn-newjoiner-card {
+  display: block !important;
+  min-width: 0 !important;
+  min-height: 144px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border: 1px solid #e7e9ee !important;
+  border-radius: 15px !important;
+  background: #f7f8fa !important;
+}
+.kn-newjoiner-card > a {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 144px !important;
+  padding: 17px !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.kn-newjoiner-card:hover { transform: translateY(-2px); border-color: #d9defa !important; background: #fff !important; box-shadow: 0 12px 25px rgba(31,46,69,.07); }
+.kn-newjoiner-card .kn-newjoiner-icon { display: block !important; margin: 0 0 13px !important; font-size: 21px !important; }
+.kn-newjoiner-card strong { display: block !important; color: #273142 !important; font-size: 13px !important; line-height: 1.45 !important; }
+.kn-newjoiner-card small { display: block !important; margin-top: 7px !important; color: #84909d !important; font-size: 11px !important; line-height: 1.55 !important; }
+
+/* v3: New Joiner landing page, no recommended learning sequence */
+.nj-page { width: 100%; }
+.nj-hero { margin-bottom: 26px; padding: 34px; border: 1px solid #e7eaf0; border-radius: 22px; background: linear-gradient(135deg,#f8f9ff,#fff); }
+.nj-kicker { color: #5268ee; text-transform: uppercase; letter-spacing: .14em; font-size: 10px; font-weight: 750; }
+.nj-hero h1 { margin: 11px 0 10px !important; border: 0 !important; font-size: 34px !important; letter-spacing: -.035em; }
+.nj-hero p { margin: 0; color: #748092; line-height: 1.75; }
+.nj-grid { display: grid !important; grid-template-columns: repeat(3,minmax(0,1fr)) !important; gap: 14px !important; }
+.nj-card { display: block !important; min-width: 0; overflow: hidden; border: 1px solid #e7e9ee; border-radius: 17px; background: #fff; transition: .2s ease; }
+.nj-card:hover { transform: translateY(-3px); border-color: #d9defa; box-shadow: 0 15px 32px rgba(31,46,69,.08); }
+.nj-card > a { display: flex !important; flex-direction: column !important; min-height: 205px; padding: 22px; color: inherit !important; text-decoration: none !important; }
+.nj-card span { font-size: 25px; }
+.nj-card strong { display: block; margin-top: 22px; color: #273142; font-size: 15px; line-height: 1.45; }
+.nj-card small { display: block; margin-top: 8px; color: #84909d; font-size: 12px; line-height: 1.55; }
+.nj-card em { margin-top: auto; padding-top: 18px; color: #5268ee; font-size: 12px; font-style: normal; }
+
+@media (max-width: 1050px) {
+  .kn-newjoiner-grid, .nj-grid { grid-template-columns: repeat(2,minmax(0,1fr)) !important; }
+}
+@media (max-width: 560px) {
+  .kn-newjoiner-grid, .nj-grid { grid-template-columns: 1fr !important; }
+}
